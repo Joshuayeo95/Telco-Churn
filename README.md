@@ -4,6 +4,9 @@ This project aims to predict the probability of a customer churning from the Tel
 
 We may also do clustering to try and examine if there are different clusters of customers and explore if they have similar characteristics that make them more likely to churn. 
 
+# Usage
+Please download the `modelling_functions` python script and import it before running the notebook.
+
 ## Dataset
 
 The dataset used for this project can be obtained from:
