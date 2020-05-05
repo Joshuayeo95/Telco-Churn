@@ -14,9 +14,11 @@ https://www.kaggle.com/blastchar/telco-customer-churn
 
 As we are trying to classify if the customer if going to churn or not, we will be training and evaluating the following models:
 
-* Naive Bayes
 * Random Forests
+* Nearest Centroid
 * Logistic Regression
 * K-Nearest Neighbours
-* Support Vector Machines
 
+## Evaluation Metric
+
+__F1 Score__ will be used as the evaluation metric in determining the models performance. The rationale is that we want a balance between the model's ability to identify as many potential churn customers (recall) and the costs of advertising to customers that had low propensity to churn (precision). 
